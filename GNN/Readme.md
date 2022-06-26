@@ -1,2 +1,2 @@
 ## Introdution
-generate the Mnist dataset by 
+generate the Mnist dataset by GNN
