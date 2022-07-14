@@ -6,5 +6,8 @@ By performing an action, the agent transitions from state to state. Executing an
 `pip install gym`  
 `pip install ipympl`  
 `pip install pygame`  
+### Q-table
+state: 
+
 ### Algorithm
 $$Q(s,a) \leftarrow Q(s,a)+\alpha[r(t)+\gamma \max(Q(s_{t+1},a_{t+1}))-Q(s,a))]$$  
