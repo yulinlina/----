@@ -7,4 +7,4 @@ By performing an action, the agent transitions from state to state. Executing an
 `pip install ipympl`  
 `pip install pygame`  
 ### Algorithm
-$$Q(s,a) \leftarrow Q(s,a)+\alpha[r(t)+\gamma \max(Q(s_{t+1},a_{t+1}))-Q(s,a)]$$  
+$$Q(s,a) \leftarrow Q(s,a)+\alpha[r(t)+\gamma \max(Q(s_{t+1},a_{t+1}))-Q(s,a))]$$  
